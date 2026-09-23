@@ -1,0 +1,1149 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "全部类型",
+      "englishName": "All Fallacies",
+      "color": "#6366f1",
+      "accent": "indigo",
+      "count": 54,
+      "description": "系统化呈现全部 54 种常见逻辑谬误与诡辩论证类型。"
+    },
+    {
+      "id": "mind",
+      "name": "诉诸思想",
+      "englishName": "Appeal to the Mind",
+      "color": "#754d29",
+      "accent": "amber",
+      "count": 10,
+      "description": "利用思维惯性、虚假权威、大众盲从或无知来确立观点，而非凭借严谨证据。"
+    },
+    {
+      "id": "emotion",
+      "name": "诉诸情感",
+      "englishName": "Appeal to Emotion",
+      "color": "#eb2128",
+      "accent": "rose",
+      "count": 8,
+      "description": "操控受众的恐惧、怜悯、虚荣、仇恨或偏见等情绪反应，绕过理性的客观审视。"
+    },
+    {
+      "id": "deduction",
+      "name": "错误推论",
+      "englishName": "Faulty Deduction",
+      "color": "#918bc1",
+      "accent": "purple",
+      "count": 13,
+      "description": "演绎与归纳逻辑结构存在结构性硬伤，从前提到结论推导脱节或偷换概念。"
+    },
+    {
+      "id": "content",
+      "name": "操纵内容",
+      "englishName": "Manipulating Content",
+      "color": "#5fab8a",
+      "accent": "emerald",
+      "count": 10,
+      "description": "曲解、隐匿、转移或预设论据本身，通过信息不对称与诡辩掩盖论点的薄弱。"
+    },
+    {
+      "id": "causality",
+      "name": "因果错乱",
+      "englishName": "Garbled Cause & Effect",
+      "color": "#e9018b",
+      "accent": "pink",
+      "count": 7,
+      "description": "错误地将先后时间次序、统计相关性等同于实质因果链条，倒因为果。"
+    },
+    {
+      "id": "attack",
+      "name": "攻击谬误",
+      "englishName": "On the Attack",
+      "color": "#168ecc",
+      "accent": "sky",
+      "count": 6,
+      "description": "回避命题与论证本身，针对发言者的个人品格、动机、身份或背景发起人身攻讦。"
+    }
+  ],
+  "items": [
+    {
+      "id": "01",
+      "name": "诉诸匿名权威",
+      "englishName": "Appeal to Anonymous Authority",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#754d29",
+      "definition": "引用来源不详的“专家”、“研究”或某一群体（比如“科学家”）以声称某观点是正确的。",
+      "example": "“他们说要花7年才能消化一片口香糖。”",
+      "image": "stickers/01_2570969055473172599.png",
+      "deepDive": {
+        "manifestation": "常见于自媒体爆款文章、短视频与日常传言。高频使用“专家表示”、“据最新科学发现”、“研究人员指出”，却从不给出具体的科研机构、论文出处、发表年份或样本规模。",
+        "counterStrategy": "直接追问信源三要素：“这项研究出自哪所大学或独立科研机构？论文发表在什么权威期刊？具体由哪位学者主持？”要求对方提供可供公开核验的第一手文献。",
+        "relatedIds": [
+          "02",
+          "50"
+        ]
+      },
+      "svg": "svg-icons/01.svg"
+    },
+    {
+      "id": "02",
+      "name": "诉诸(可疑)权威",
+      "englishName": "Appeal to Questionable Authority",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#6f4928",
+      "definition": "因为某个无实无信的“专家”说某件事是真的，因而断言确实如此。",
+      "example": "“超过400位杰出的科学家与工程师对全球变暖持争议态度。”",
+      "image": "stickers/02_2570969055473172600.png",
+      "deepDive": {
+        "manifestation": "引用缺乏学术公信力的挂牌野鸡机构、被同行除名的争议人员，或者让非本领域的专家跨界背书（例如让机械工程师断言病毒学与流行病学结论）。",
+        "counterStrategy": "核实该权威是否具备相应领域的对口执业资质，其论点是否代表经同行评审检验的主流科学界共识，而非脱离实证支撑的孤立言论。",
+        "relatedIds": [
+          "01",
+          "51"
+        ]
+      },
+      "svg": "svg-icons/02.svg"
+    },
+    {
+      "id": "03",
+      "name": "诉诸常规",
+      "englishName": "Appeal to Common Practice",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#674525",
+      "definition": "因为常见，所以正确。",
+      "example": "“这家银行有些贪污腐败方面的问题。但在这里发生的事不是在哪家银行都在发生嘛。”",
+      "image": "stickers/03_2570969055473172601.png",
+      "deepDive": {
+        "manifestation": "“大家都这么干”、“业内潜规则都是这样”，试图通过展现某种不良现象在统计或现实中的普遍性，来为违规违法行为正名。",
+        "counterStrategy": "“普遍性绝不等于正当性。全班同学都抄作业并不代表抄作业是合规的；大家都在闯红灯，闯红灯依然违法。”",
+        "relatedIds": [
+          "08",
+          "10"
+        ]
+      },
+      "svg": "svg-icons/03.svg"
+    },
+    {
+      "id": "04",
+      "name": "诉诸无知",
+      "englishName": "Appeal to Ignorance",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#613f22",
+      "definition": "某一观点是正确的，仅仅因为它没有被证伪（或某观点是错误的，仅仅因为它尚未被证实）。",
+      "example": "“没人能证明有上帝。所以没有上帝。”",
+      "image": "stickers/04_2570969055473172602.png",
+      "deepDive": {
+        "manifestation": "“你无法证明外星人没有在暗中监视地球，所以他们必定就在我们身边。”利用人类当前认知边界的空白来强塞未经证实的假说。",
+        "counterStrategy": "缺乏反驳证据不等于正面证实，无法证伪也不等于证实。坚持“谁主张、谁举证”的科学原则。",
+        "relatedIds": [
+          "41",
+          "50"
+        ]
+      },
+      "svg": "svg-icons/04.svg"
+    },
+    {
+      "id": "05",
+      "name": "诉诸怀疑",
+      "englishName": "Appeal to Incredulity",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#593b21",
+      "definition": "因为某件事听起来不可信或超乎直觉，所以一定不是真的。",
+      "example": "“眼睛是超级复杂的生物机械之作，有千万个紧密联系的部件。如果没有一位睿智的设计者，这怎么可能存在？”",
+      "image": "stickers/05_2570969055473172603.png",
+      "deepDive": {
+        "manifestation": "因个人知识结构受限、想象力缺乏或与日常直觉相悖，直接断定科学发现（如相对论、深时演化、量子力学）不可能为真。",
+        "counterStrategy": "客观世界的规律从不以人类有限的常识直觉为准绳。个人“难以置信”只是认知的起点，不能作为事实真伪的裁决依据。",
+        "relatedIds": [
+          "04",
+          "16"
+        ]
+      },
+      "svg": "svg-icons/05.svg"
+    },
+    {
+      "id": "06",
+      "name": "身价逻辑",
+      "englishName": "Appeal to Wealth",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#54361e",
+      "definition": "如果某人很有钱，或者某样东西很贵，那么这就对某一论断的真实性造成了影响。",
+      "example": "“如果这玩儿更贵的话，那它一定更好。”",
+      "image": "stickers/06_2570969055473172658.png",
+      "deepDive": {
+        "manifestation": "“这位百亿富豪推荐的健康配方绝对不会错”、“一千块一盒的天价保健品效果肯定甩开普通维生素几条街”。",
+        "counterStrategy": "价格取决于市场供求、品牌炒作与溢价，与物理或科学功效不构成必然正比；个人财富积累不代表全知全能的专业判断力。",
+        "relatedIds": [
+          "02",
+          "07"
+        ]
+      },
+      "svg": "svg-icons/06.svg"
+    },
+    {
+      "id": "07",
+      "name": "求新逻辑",
+      "englishName": "Appeal to Novelty",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#4e321e",
+      "definition": "因为是最新的，所以更好。",
+      "example": "“太棒了！最新的操作系统会让我的电脑跑得更快的！”",
+      "image": "stickers/07_2570969055473172657.png",
+      "deepDive": {
+        "manifestation": "盲目崇拜最新的管理概念、消费流行或技术框架，认定旧方案必然落后低效。",
+        "counterStrategy": "“新”仅代表出现的时间序列先后，绝不天然等于“稳定、成熟与优越”。新版本常伴随未经大规模检验的未知缺陷与兼容风险。",
+        "relatedIds": [
+          "10",
+          "06"
+        ]
+      },
+      "svg": "svg-icons/07.svg"
+    },
+    {
+      "id": "08",
+      "name": "诉诸主流",
+      "englishName": "Appeal to Popular Belief",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#482e19",
+      "definition": "认定某件事是真的，因为大多数人都这么相信。",
+      "example": "“喝牛奶能使你骨骼强健。”",
+      "image": "stickers/08_2570969055473172656.png",
+      "deepDive": {
+        "manifestation": "“全国几亿人都在转发赞同，难道他们都傻吗？”、“市场上大家都跟风买进这只股票，闭着眼买肯定稳赚”。",
+        "counterStrategy": "真理的客观性不取决于点赞人数或投票数。中世纪绝大多数人都笃信地心说，大众盲从往往掩盖了缺乏检验的共识泡沫。",
+        "relatedIds": [
+          "03",
+          "10"
+        ]
+      },
+      "svg": "svg-icons/08.svg"
+    },
+    {
+      "id": "09",
+      "name": "诉诸概率",
+      "englishName": "Appeal to Probability",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#422717",
+      "definition": "相信因为某件事情可能发生，所以必然会发生。",
+      "example": "“宇宙里有数不清的星系，无数多的星星。一定有另一颗行星孕育了智慧生命。”",
+      "image": "stickers/09_2570969055473172655.png",
+      "deepDive": {
+        "manifestation": "将“微小非零的理论概率”在推论中悄悄偷换为“板上钉钉的确定事实”。例如将灾难发生的潜在风险直接当作当下确证的现实。",
+        "counterStrategy": "“有可能发生”是假设与探索的前提，绝不能直接充当论证的最终结论。在“可能性”与“现实性”之间需要扎实的实证桥梁。",
+        "relatedIds": [
+          "23",
+          "25"
+        ]
+      },
+      "svg": "svg-icons/09.svg"
+    },
+    {
+      "id": "10",
+      "name": "诉诸传统",
+      "englishName": "Appeal to Tradition",
+      "category": "诉诸思想",
+      "categoryId": "mind",
+      "color": "#3c2315",
+      "definition": "声称某件事是正确的，因为（很显然）一直以来都是这样。",
+      "example": "“婚姻是男与女的结合。因此同性婚姻毫无根据。”",
+      "image": "stickers/10_2570969055473172654.png",
+      "deepDive": {
+        "manifestation": "“老祖宗传下来几千年了怎么会有错”、“我们部门自建厂以来都是这么操作的”，用历史沿袭作为抵制变革的盾牌。",
+        "counterStrategy": "历史延续的时间长度不能赋予行为必然的道德与科学合法性。许多曾经延绵千年的封建制度与陋习最终都被现代文明所淘汰。",
+        "relatedIds": [
+          "03",
+          "07"
+        ]
+      },
+      "svg": "svg-icons/10.svg"
+    },
+    {
+      "id": "11",
+      "name": "掩耳盗铃",
+      "englishName": "Appeal to Consequences",
+      "category": "诉诸情感",
+      "categoryId": "emotion",
+      "color": "#eb2128",
+      "definition": "声称某个观点是错误的，因为你不愿意相信那所意味的事实。",
+      "example": "“他不可能就是为了骗我的。他说过他爱我的，他一定是遭到了什么变故。”",
+      "image": "stickers/11_2570969055473172609.png",
+      "deepDive": {
+        "manifestation": "因为接受某一事实（如投资破产、恋人背叛、绝症确诊）在情感上过于痛苦沉重，从而在面对确凿证据时选择性失明并予以否认。",
+        "counterStrategy": "结论所带来的情绪负担无法削弱其客观真实度。逃避和否认现实并不能阻止客观因果的自然发生。",
+        "relatedIds": [
+          "18",
+          "12"
+        ]
+      },
+      "svg": "svg-icons/11.svg"
+    },
+    {
+      "id": "12",
+      "name": "诉诸恐惧",
+      "englishName": "Appeal to Fear",
+      "category": "诉诸情感",
+      "categoryId": "emotion",
+      "color": "#db1f28",
+      "definition": "煽动对一方的恐惧与偏见，从而进行论证。",
+      "example": "“在你意识到之前，清真寺的数目就会超过教堂。”",
+      "image": "stickers/12_2570969055473172610.png",
+      "deepDive": {
+        "manifestation": "营销中的恐吓策略（“现在不买这款抗衰产品，三十岁后你将追悔莫及”）或政治辩论中描绘耸人听闻的末日毁灭图景。",
+        "counterStrategy": "将情绪恐吓与事实因果剥离分析。审视对方描绘的可怕后果是否具有严格的发生逻辑与统计概率，避免被恐惧剥夺冷静思考。",
+        "relatedIds": [
+          "11",
+          "39"
+        ]
+      },
+      "svg": "svg-icons/12.svg"
+    },
+    {
+      "id": "13",
+      "name": "诉诸谄媚",
+      "englishName": "Appeal to Flattery",
+      "category": "诉诸情感",
+      "categoryId": "emotion",
+      "color": "#ce2125",
+      "definition": "给毫无根据的论点裹上糖衣炮弹，让人不自觉地全盘接受。",
+      "example": "“聪明又有洞察力的读者当然在读到这样的谬误时就能马上发觉。”",
+      "image": "stickers/13_2570969055473172611.png",
+      "deepDive": {
+        "manifestation": "大肆夸赞受众的智商、格局、良知或地位，让对方为了匹配这些美誉而情不自禁地对荒谬推论点头称赞。",
+        "counterStrategy": "“感谢您的溢美之词，但我们探讨的核心应当聚焦于方案可行性与数据真实性本身，而非我个人的特质。”",
+        "relatedIds": [
+          "16",
+          "17"
+        ]
+      },
+      "svg": "svg-icons/13.svg"
+    },
+    {
+      "id": "14",
+      "name": "诉诸自然",
+      "englishName": "Appeal to Nature",
+      "category": "诉诸情感",
+      "categoryId": "emotion",
+      "color": "#c32025",
+      "definition": "通过与“至善”的自然界对比，来使你的观点看起来更站得住脚。",
+      "example": "“同性恋当然违背天性。你看不到同性动物交配吧。”",
+      "image": "stickers/14_2570969055473172612.png",
+      "deepDive": {
+        "manifestation": "“纯天然中草药绝无副作用”（忽视了砷、汞、毒蘑菇皆是纯天然），或将野外残酷的“弱肉强食”奉为人间行为准则。",
+        "counterStrategy": "自然存在的现象绝不直接等同于良善、安全或道德。人类现代文明的医疗、法治与人权，正是建立在克服自然野蛮缺陷的基础之上。",
+        "relatedIds": [
+          "03",
+          "10"
+        ]
+      },
+      "svg": "svg-icons/14.svg"
+    },
+    {
+      "id": "15",
+      "name": "诉诸同情",
+      "englishName": "Appeal to Pity",
+      "category": "诉诸情感",
+      "categoryId": "emotion",
+      "color": "#b81e24",
+      "definition": "唤起人们的怜悯之心，以动摇对手。",
+      "example": "“前独裁者已垂垂老矣，濒临暮年。让他为当年的暴行受审太残忍了。”",
+      "image": "stickers/15_2570969055473172613.png",
+      "deepDive": {
+        "manifestation": "诉苦式辩护（“项目虽有严重Bug，但我团队已连续通宵两周，不该问责”；法庭上大打悲情牌掩盖罪行）。",
+        "counterStrategy": "同情心体现人文关怀，但不可跨越制度规章与司法公正的红线。对违规者的过度宽宥是对受害者利益的二次伤害。",
+        "relatedIds": [
+          "11",
+          "12"
+        ]
+      },
+      "svg": "svg-icons/15.svg"
+    },
+    {
+      "id": "16",
+      "name": "诉诸荒谬",
+      "englishName": "Appeal to Ridicule",
+      "category": "诉诸情感",
+      "categoryId": "emotion",
+      "color": "#ac1e23",
+      "definition": "将对手的观点以荒谬的形式表现出来以进行打击。",
+      "example": "“对上帝的信仰就如同相信有圣诞老人和牙仙一样。”",
+      "image": "stickers/16_2570969055473172614.png",
+      "deepDive": {
+        "manifestation": "借助滑稽鬼脸、冷嘲热讽、轻佻模仿或极端荒诞的对比引诱听众哄笑，从而回避针对核心证据的严肃辩论。",
+        "counterStrategy": "“嘲弄和逗乐无法充当有效论据。请收起戏剧化的讥讽修辞，针对对方论据中提出的具体事实作出正面回应。”",
+        "relatedIds": [
+          "54",
+          "49"
+        ]
+      },
+      "svg": "svg-icons/16.svg"
+    },
+    {
+      "id": "17",
+      "name": "诉诸仇恨",
+      "englishName": "Appeal to Spite",
+      "category": "诉诸情感",
+      "categoryId": "emotion",
+      "color": "#9e1e20",
+      "definition": "因为个人偏见而对某一事实或看法不屑一顾。",
+      "example": "“富二代搞慈善？算了吧，反正还不是在做秀。”",
+      "image": "stickers/17_2570969055473172615.png",
+      "deepDive": {
+        "manifestation": "由于对某一群体的既定厌恶、阶层偏见或过节，连带全盘否定对方所做出的一切正面举措与客观贡献。",
+        "counterStrategy": "对事不对人。善行即使动机存在多元考量，其在现实中拯救病患或助学的客观成效依然具有真实的正面价值。",
+        "relatedIds": [
+          "49",
+          "51"
+        ]
+      },
+      "svg": "svg-icons/17.svg"
+    },
+    {
+      "id": "18",
+      "name": "一厢情愿",
+      "englishName": "Wishful Thinking",
+      "category": "诉诸情感",
+      "categoryId": "emotion",
+      "color": "#961d1f",
+      "definition": "认为一件事是真的或假的，仅仅因为你情愿想当然。",
+      "example": "“领袖是不会犯错的。他是人民的救星。”",
+      "image": "stickers/18_2570969055473172616.png",
+      "deepDive": {
+        "manifestation": "“只要项目赶工上线就一定能创造上亿流水”、“他现在对我冷淡，但心里一定深爱着我”，将主观愿望当成必然规律。",
+        "counterStrategy": "愿望再美好也无法干预物理定律或市场规律。清晰划分“主观渴望”与“客观概率”的界限。",
+        "relatedIds": [
+          "11",
+          "09"
+        ]
+      },
+      "svg": "svg-icons/18.svg"
+    },
+    {
+      "id": "19",
+      "name": "轶事证据",
+      "englishName": "Anecdotal Evidence",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#918bc1",
+      "definition": "对系统性研究下得出的证据视而不见，反而集中在手头的个例上。",
+      "example": "“我才不戒烟呢。我爷爷每天抽两包烟，还活到了90岁！”",
+      "image": "stickers/19_2570969055473172617.png",
+      "deepDive": {
+        "manifestation": "“身边即世界”。用亲戚邻居的个案经历去否定成千上万例科学严谨的大样本流行病学统计结论。",
+        "counterStrategy": "个例极易受到幸存者偏差与隐藏变量影响。在现代统计科学中，只有双盲随机对照实验与大样本数据才具有结论性价值。",
+        "relatedIds": [
+          "24",
+          "29"
+        ]
+      },
+      "svg": "svg-icons/19.svg"
+    },
+    {
+      "id": "20",
+      "name": "合成谬误",
+      "englishName": "Composition",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#8882b6",
+      "definition": "推断一群人的特性或信条也代表了整个团体。",
+      "example": "“最近的恐怖袭击是由激进的伊斯兰教徒组织的。因此所有的恐怖分子都是穆斯林。”",
+      "image": "stickers/20_2570969055473172618.png",
+      "deepDive": {
+        "manifestation": "剧场效应：每个人站起来看戏能看清楚，由此推出“只要大家都站起来，大家就都能看清楚”。",
+        "counterStrategy": "系统的宏观整体特征不等于微观局部特征的简单算术叠加。局部的个体最优往往导致整体的宏观灾难。",
+        "relatedIds": [
+          "21",
+          "29"
+        ]
+      },
+      "svg": "svg-icons/20.svg"
+    },
+    {
+      "id": "21",
+      "name": "分割谬误",
+      "englishName": "Division",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#817baf",
+      "definition": "将整个团体的特性或信条自动代入到每一名成员的头上。",
+      "example": "“苹果的产品向来颠覆传统，设计一流。下一款也一定如此。”",
+      "image": "stickers/21_2570969055473172619.png",
+      "deepDive": {
+        "manifestation": "“这家跨国巨头技术实力雄厚，所以它里面的每个程序员水平肯定都超越中小公司总监”。",
+        "counterStrategy": "整体的卓越是体系协作与制度分工的产物，并不自动且均质地流淌到组织中的每一个具体零部件或个体身上。",
+        "relatedIds": [
+          "20",
+          "30"
+        ]
+      },
+      "svg": "svg-icons/21.svg"
+    },
+    {
+      "id": "22",
+      "name": "设计谬误",
+      "englishName": "Design Fallacy",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#7b75a9",
+      "definition": "因为某样东西设计精美，视效上佳，所以更加站得住脚。",
+      "example": "“这份商业计划书排版极为高大上，动画流畅，因此这家初创公司绝对大有前途。”",
+      "image": "stickers/22_2570969055473172620.png",
+      "deepDive": {
+        "manifestation": "被精雕细琢的PPT动画、酷炫的看板UI或昂贵的宣传册所迷惑，降低对项目真实财务数据与技术壁垒的警惕性。",
+        "counterStrategy": "严格解耦“视觉表现力”与“内核真实性”。排版装潢只承担信息承载功能，再漂亮的设计也无法拯救漏洞百出的商业逻辑。",
+        "relatedIds": [
+          "06",
+          "13"
+        ]
+      },
+      "svg": "svg-icons/22.svg"
+    },
+    {
+      "id": "23",
+      "name": "赌徒谬误",
+      "englishName": "Gambler's Fallacy",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#7b75a9",
+      "definition": "认为历史结果会影响未来独立事件的结果。",
+      "example": "“我已经连续丢了10次硬币，都是正面朝上。因此下一次更可能丢出反面来。”",
+      "image": "stickers/23_2570969055473172621.png",
+      "deepDive": {
+        "manifestation": "赌场连开10次大之后疯狂买小；彩票连续未中之后认定大数定律即将“补偿”自己而持续追加本金。",
+        "counterStrategy": "独立随机事件之间互不干涉。抛硬币没有记忆系统，哪怕前面已经连续抛出100次正面，第101次的概率依然是毫无波动的50%。",
+        "relatedIds": [
+          "09",
+          "25"
+        ]
+      },
+      "svg": "svg-icons/23.svg"
+    },
+    {
+      "id": "24",
+      "name": "轻率概化",
+      "englishName": "Hasty Generalization",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#746ea2",
+      "definition": "从单一的样本得出概括性的宏观结论。",
+      "example": "“我被前面的女驾驶员别了下。女人就是不能开车。”",
+      "image": "stickers/24_2570969055473172622.png",
+      "deepDive": {
+        "manifestation": "在外地遭遇一次黑心出租车司机，立即向亲友宣称“那个城市的人全都极度刁蛮奸诈”。",
+        "counterStrategy": "极小样本只能证明该个案本身的发生，在统计学上根本无权外推至全局。任何全称概括都需要足够的样本量与随机对照检验。",
+        "relatedIds": [
+          "19",
+          "29"
+        ]
+      },
+      "svg": "svg-icons/24.svg"
+    },
+    {
+      "id": "25",
+      "name": "妄下定论",
+      "englishName": "Jumping to Conclusions",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#6d679b",
+      "definition": "没有公平考虑所有相关（且易举证的）事实，就妄下结论。",
+      "example": "“她想要医疗保险报销避孕药？真是个私生活不检点的女人。”",
+      "image": "stickers/25_2570969055473172623.png",
+      "deepDive": {
+        "manifestation": "仅凭吉光片羽的片面事实（如避孕药常被妇科医生用于调节多囊卵巢激素失衡），便脑补完整罪案动机并展开道德讨伐。",
+        "counterStrategy": "保持悬置判断与审慎怀疑。在做出评判前自问：“事实全貌是否已经全部浮出水面？是否存在其他合乎常理的动机和解释？”",
+        "relatedIds": [
+          "24",
+          "49"
+        ]
+      },
+      "svg": "svg-icons/25.svg"
+    },
+    {
+      "id": "26",
+      "name": "中间立场",
+      "englishName": "Middle Ground",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#666094",
+      "definition": "相冲突的两个观点似乎都有道理，那么答案一定在两者的中间地带。",
+      "example": "“我追尾了你的车，但我认为自己不该出修理费。你认为我该出所有的修理费。合乎情理的方案就是平分费用。”",
+      "image": "stickers/26_2570969055473172624.png",
+      "deepDive": {
+        "manifestation": "“各打五十大板”式和稀泥。一个人说2+2=4，另一个人恶意叫嚣2+2=6，调解人裁定2+2=5才算双方各退一步。",
+        "counterStrategy": "折中不等于真理。居心不良的一方常通过提出极端荒谬的要求，诱导中间派以此为基准妥协出偏向自己的结果。",
+        "relatedIds": [
+          "35",
+          "27"
+        ]
+      },
+      "svg": "svg-icons/26.svg"
+    },
+    {
+      "id": "27",
+      "name": "完美主义谬误",
+      "englishName": "Perfectionist Fallacy",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#5f5b8c",
+      "definition": "认为只有完美的成功才是可行的选择，从而反对任何低于预期的方案。",
+      "example": "“这反酒驾的宣传究竟有什么用？人们还是会醉酒驾车的。”",
+      "image": "stickers/27_2570969055473172625.png",
+      "deepDive": {
+        "manifestation": "“安全带既然不能在100%的时速撞击中保命，系安全带就是徒劳”、“环保减排不能瞬间实现零排放，因此不如干脆别管”。",
+        "counterStrategy": "“不要让完美成为优秀的敌人。”能够挽救80%生命的务实措施，远胜过因为无法做到100%而躺平弃疗的虚无主义。",
+        "relatedIds": [
+          "35",
+          "48"
+        ]
+      },
+      "svg": "svg-icons/27.svg"
+    },
+    {
+      "id": "28",
+      "name": "相对论谬误",
+      "englishName": "Relativist Fallacy",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#595586",
+      "definition": "否定某样客观事实，认为事实是相对一个或一群人而言的。",
+      "example": "“那对你来说可能是对的。但对我来说不是。”",
+      "image": "stickers/28_2570969055473172626.png",
+      "deepDive": {
+        "manifestation": "将客观可反复检验的物理定律、医学常识或财务收支赤字，降格为“你的视角不同”、“这只是你的个人价值观”。",
+        "counterStrategy": "严格划分主观价值偏好（如吃甜还是咸）与客观物质规律（如引力与守恒定律）。世界客观规律不因任何人的个人愿望而转移。",
+        "relatedIds": [
+          "41",
+          "43"
+        ]
+      },
+      "svg": "svg-icons/28.svg"
+    },
+    {
+      "id": "29",
+      "name": "以偏概全",
+      "englishName": "Overgeneralization",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#524d85",
+      "definition": "认为从局部小样本观察到的规律，同样无条件适用于整体。",
+      "example": "“这家大型制鞋商在血汗工厂里雇用童工。所以所有跨国企业都是吸血资本家。”",
+      "image": "stickers/29_2570969055473172627.png",
+      "deepDive": {
+        "manifestation": "抓住某个子系统或下属分支的恶劣丑闻，直接武断给整个系统、行业或品牌判处全面死刑。",
+        "counterStrategy": "审查样本量与分布。厘清究竟是制度设计上的普遍系统性恶行，还是执行末梢的偶发违规事件，不可简单一刀切。",
+        "relatedIds": [
+          "20",
+          "24"
+        ]
+      },
+      "svg": "svg-icons/29.svg"
+    },
+    {
+      "id": "30",
+      "name": "一概而论",
+      "englishName": "Sweeping Generalization",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#4a497e",
+      "definition": "宽泛地应用一般性原则，忽视特殊情境与例外。",
+      "example": "“那些年轻人暴乱是因为他们缺失有道德观念的父亲。”",
+      "image": "stickers/30_2570969055473172628.png",
+      "deepDive": {
+        "manifestation": "教条化套用宏观格言（如“不听老人言吃亏在眼前”或“任何情况下绝不能说谎”），无视极端危机情况下的现实伦理边界。",
+        "counterStrategy": "普遍性原则皆有其假定前提与适用边界。面对复杂的现实多因素问题，切忌用单一公式搞一刀切。",
+        "relatedIds": [
+          "21",
+          "29"
+        ]
+      },
+      "svg": "svg-icons/30.svg"
+    },
+    {
+      "id": "31",
+      "name": "中词不周延",
+      "englishName": "Undistributed Middle",
+      "category": "错误推论",
+      "categoryId": "deduction",
+      "color": "#45427c",
+      "definition": "因两件事有一个共通点，那么他们就是同一回事。",
+      "example": "“理论是尚未证实的观点。科学家用‘进化论’这一词，可见进化是未被证实的。”",
+      "image": "stickers/31_2570969055473172629.png",
+      "deepDive": {
+        "manifestation": "“鸭子会游泳，企鹅也会游泳，所以企鹅就是鸭子。”利用中词共享的某项非排他属性，强行等同两者概念。",
+        "counterStrategy": "运用形式逻辑检验三段论。两个对象共享某一外部属性，绝不意味着两者在概念内涵与外延上完全等价。",
+        "relatedIds": [
+          "42",
+          "44"
+        ]
+      },
+      "svg": "svg-icons/31.svg"
+    },
+    {
+      "id": "32",
+      "name": "临阵救援",
+      "englishName": "Ad Hoc Rescue",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#5fab8a",
+      "definition": "通过不断修改论据，搪塞问题，来保全自己的一贯主张。",
+      "example": "“……但除了更好的卫生，医药，教育，灌溉，公共卫生，道路，净水系统和公共秩序……罗马人为我们做过了什么？”",
+      "image": "stickers/32_2570969055473172630.png",
+      "deepDive": {
+        "manifestation": "“移动球门”。当既定预言被事实当场击溃时，声称“是因为灵力受到外界干扰”，持续打补丁以免认错。",
+        "counterStrategy": "指出对方正在无休止地更改预先约定的检验标准。预设一个完全不受现实检验约束的假设，已完全失去理性求真的意义。",
+        "relatedIds": [
+          "41",
+          "34"
+        ]
+      },
+      "svg": "svg-icons/32.svg"
+    },
+    {
+      "id": "33",
+      "name": "一孔之见",
+      "englishName": "Biased Sample",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#4b957f",
+      "definition": "用不具代表性的样本所推导的结论，来支持自己的论点。",
+      "example": "“我们的网上调查表示，90%的互联网用户反对网络隐私法。”",
+      "image": "stickers/33_2570969055473172631.png",
+      "deepDive": {
+        "manifestation": "在技术极客论坛组织投票并将其当作全民态度；在春运绿皮车车厢询问“大家今年买到票了吗”得出人人都能买到票。",
+        "counterStrategy": "检验样本源的代表性与独立性。当样本群体本身具备强烈的自我筛选机制时，其调查结果仅对该群体内部有效。",
+        "relatedIds": [
+          "19",
+          "40"
+        ]
+      },
+      "svg": "svg-icons/33.svg"
+    },
+    {
+      "id": "34",
+      "name": "确认偏误",
+      "englishName": "Confirmation Bias",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#418e78",
+      "definition": "挑拣对自己有利的证据，而故意无视相冲突的矛盾证据。",
+      "example": "“很明显911事件是美国政府为了合理化伊拉克与阿富汗战争而发动的阴谋。没有飞机撞上五角大楼，双子塔的倒塌是控制爆破……等等。”",
+      "image": "stickers/34_2570969055473172632.png",
+      "deepDive": {
+        "manifestation": "沉迷阴谋论或星座占卜者，对偶尔撞对的一句描述津津乐道，对完全与事实南辕北辙的大量反例则熟视无睹。",
+        "counterStrategy": "主动实施“证伪测试”：“如果你的论断是错的，现实中会出现什么？请试着对这些相抵触的客观事实做出合理解释。”",
+        "relatedIds": [
+          "40",
+          "32"
+        ]
+      },
+      "svg": "svg-icons/34.svg"
+    },
+    {
+      "id": "35",
+      "name": "伪二分法",
+      "englishName": "False Dilemma",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#3c8374",
+      "definition": "隐藏其它可能性，将两个对立的观点看作仅有的选择。",
+      "example": "“我们要么就得削减教育预算，要么就得负更多的债。我们不能负更多的债了，所以我们非降低教育预算不可。”",
+      "image": "stickers/35_2570969055473172633.png",
+      "deepDive": {
+        "manifestation": "非黑即白极化思维：“你既然不完全赞同我的方案，你就是敌对势力的走狗”、“要么立刻投降，要么彻底灭亡”。",
+        "counterStrategy": "提出隐藏的中间路线与新解法：“为什么世界只剩下这两个极端选项？我们是否能够进行税制改革或盘活闲置资产？”",
+        "relatedIds": [
+          "26",
+          "27"
+        ]
+      },
+      "svg": "svg-icons/35.svg"
+    },
+    {
+      "id": "36",
+      "name": "谎言",
+      "englishName": "The Big Lie",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#347b6e",
+      "definition": "彻头彻尾的谎言，被作为真相一再重复。",
+      "example": "“我没有和那个女人发生性关系。”",
+      "image": "stickers/36_2570969055473172634.png",
+      "deepDive": {
+        "manifestation": "戈培尔效应：“谎言重复千遍就成了真理”。凭借绝对的传播资源倾斜，通过机械式海量轰炸掩埋真相。",
+        "counterStrategy": "不被洗脑式的高频重复带偏节奏。直接调取最底层的客观司法物证、财务账目及独立交叉调查记录进行铁证对质。",
+        "relatedIds": [
+          "38",
+          "40"
+        ]
+      },
+      "svg": "svg-icons/36.svg"
+    },
+    {
+      "id": "37",
+      "name": "误导性鲜活个案",
+      "englishName": "Misleading Vividness",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#2b7368",
+      "definition": "用生动的细节来描述一次小概率事件，以让别人相信这是一个普遍严重的问题。",
+      "example": "“在法院判决同性婚姻合法化之后，学校图书馆被要求备有同性文学作品，小学生会读到同性恋的童话故事，甚至有明确支持同性恋的手册。”",
+      "image": "stickers/37_2570969055473172635.png",
+      "deepDive": {
+        "manifestation": "媒体对极罕见空难或医疗意外进行长达数周、充满血腥细节的感官轰炸，诱发公众产生普遍失衡的安全恐慌。",
+        "counterStrategy": "用冷静透明的统计大盘数据对抗戏剧化情绪冲击。生动的情节只负责刺激感官，并不代表其在现实中的发生概率升高。",
+        "relatedIds": [
+          "12",
+          "19"
+        ]
+      },
+      "svg": "svg-icons/37.svg"
+    },
+    {
+      "id": "38",
+      "name": "转移注意",
+      "englishName": "Red Herring",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#246b65",
+      "definition": "将毫不相干的话题引入辩论，以干扰视线并导向不同的结论。",
+      "example": "“参议员不需要为他开销的异常做出说明。毕竟，有些参议员做的破事儿比这严重多了。”",
+      "image": "stickers/38_2570969055473172636.png",
+      "deepDive": {
+        "manifestation": "被质疑公司偷税漏税时，高管突然大谈公司在乡村小学援建中付出了多少泪水；抛出“红鲱鱼”气味引开猎犬注意力。",
+        "counterStrategy": "牢牢锁死辩题主线：“公益善行值得肯定，但我们现在正在核查的是具体的财务账目缺口。请正面回答眼前的财务问题。”",
+        "relatedIds": [
+          "49",
+          "54"
+        ]
+      },
+      "svg": "svg-icons/38.svg"
+    },
+    {
+      "id": "39",
+      "name": "滑坡谬误",
+      "englishName": "Slippery Slope",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#1a635f",
+      "definition": "认为开始的一小步会无可避免地引发一串相关（负面）的极端事件。",
+      "example": "“如果我们允许大麻合法化，更多的人就会开始吸食毒品和海洛因。到那时候我们就得也合法化那些毒品！”",
+      "image": "stickers/39_2570969055473172637.png",
+      "deepDive": {
+        "manifestation": "“今天员工迟到5分钟不罚款，明天大家就会集体旷工，下个月整个公司就会彻底倒闭破产”。",
+        "counterStrategy": "拆解多米诺骨牌的每一环：“从A走到Z之间存在无数道制度门槛与干预机制，对方所谓的‘无可避免’依据何在？”",
+        "relatedIds": [
+          "12",
+          "09"
+        ]
+      },
+      "svg": "svg-icons/39.svg"
+    },
+    {
+      "id": "40",
+      "name": "隐瞒证据",
+      "englishName": "Suppressed Evidence",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#0e5c5b",
+      "definition": "有意不用相关且重要的信息，因为那对立于自己的既定结论。",
+      "example": "“炒菜产生的油烟是PM2.5的重要来源，所以要治理雾霾，中国就得少做菜。”",
+      "image": "stickers/40_2570969055473172638.png",
+      "deepDive": {
+        "manifestation": "“挑樱桃（Cherry-picking）”。只展示某药在特定轻微病症中的一小项好转指标，死死隐瞒另五项严重的肝肾毒副作用报告。",
+        "counterStrategy": "遵循归纳逻辑的“全证据原则”（Principle of Total Evidence），要求公开完整的背景口径与全量实验数据，坚决拒绝碎片化偏袒。",
+        "relatedIds": [
+          "34",
+          "33"
+        ]
+      },
+      "svg": "svg-icons/40.svg"
+    },
+    {
+      "id": "41",
+      "name": "无法证伪",
+      "englishName": "Unfalsifiability",
+      "category": "操纵内容",
+      "categoryId": "content",
+      "color": "#005456",
+      "definition": "提出一个从原理上根本无法被证伪的观点，因为无法加以检验。",
+      "example": "“我提出的这套命理预言是绝对神准的。如果不灵验，那肯定是因为你心不够诚或时辰记错了。”",
+      "image": "stickers/41_2570969055473172639.png",
+      "deepDive": {
+        "manifestation": "断言房间里有一只隐形、无气味、不发出任何热量且免疫一切物理仪器探测的巨龙；任何试图反驳的实验都会被其定义为无效。",
+        "counterStrategy": "波普尔证伪主义：一个在任何情况下都无法被潜在经验事实反驳的命题，属于闭门自圆其说，不具备实证科学探讨价值。",
+        "relatedIds": [
+          "04",
+          "32"
+        ]
+      },
+      "svg": "svg-icons/41.svg"
+    },
+    {
+      "id": "42",
+      "name": "肯定后件",
+      "englishName": "Affirming the Consequent",
+      "category": "因果错乱",
+      "categoryId": "causality",
+      "color": "#e9018b",
+      "definition": "认为对你所观察到的现象只有一种解释。",
+      "example": "“婚姻会带来孩子的降生。所以这（生孩子）就是其存在的唯一理由。”",
+      "image": "stickers/42_2570969055473172640.png",
+      "deepDive": {
+        "manifestation": "若下雨（P）则地湿（Q）；现在看到地湿（Q），便草率咬定刚才肯定下雨了（P）（忽视了洒水车、融雪等其他原因）。",
+        "counterStrategy": "严查充分条件与必要条件。“P能导致Q，并不意味着只有P才能导致Q。Q成立绝不能反证P必然发生。”",
+        "relatedIds": [
+          "45",
+          "44"
+        ]
+      },
+      "svg": "svg-icons/42.svg"
+    },
+    {
+      "id": "43",
+      "name": "循环逻辑",
+      "englishName": "Circular Logic",
+      "category": "因果错乱",
+      "categoryId": "causality",
+      "color": "#d70882",
+      "definition": "论证的前提里已经蕴含了结论本身。",
+      "example": "“《圣经》上说上帝存在。由于圣经是神的话，圣经必然正确。所以上帝是绝对存在的。”",
+      "image": "stickers/43_2570969055473172641.png",
+      "deepDive": {
+        "manifestation": "“王经理的话必须无条件执行，因为他是权威；你怎么知道他是权威？因为他的话大家都必须执行。”",
+        "counterStrategy": "刺破套套逻辑（Tautology）：“你拿来当支撑论据的前提，其实就是你要证明的最终结论，逻辑上在原地兜圈子。”",
+        "relatedIds": [
+          "41",
+          "28"
+        ]
+      },
+      "svg": "svg-icons/43.svg"
+    },
+    {
+      "id": "44",
+      "name": "相关即因果",
+      "englishName": "Correlation Proves Causation",
+      "category": "因果错乱",
+      "categoryId": "causality",
+      "color": "#c7117e",
+      "definition": "认为两个一起发生的事件一定有因果关系。（关联性 = 因果性）",
+      "example": "“小混混们听主题暴力的饶舌音乐。所以饶舌音乐会造成青少年的暴力行为。”",
+      "image": "stickers/44_2570969055473172642.png",
+      "deepDive": {
+        "manifestation": "雪糕销量与溺水死亡率同步升高，得出“吃雪糕会溺水”的荒谬结论（实为主因是炎炎夏日人们既爱吃冷饮又爱下水游泳）。",
+        "counterStrategy": "“相关不等于因果”。必须控制混杂变量（Confounding Variable），并明确证明两者之间的实际生理或物理作用路径。",
+        "relatedIds": [
+          "46",
+          "47"
+        ]
+      },
+      "svg": "svg-icons/44.svg"
+    },
+    {
+      "id": "45",
+      "name": "否定前件",
+      "englishName": "Denying the Antecedent",
+      "category": "因果错乱",
+      "categoryId": "causality",
+      "color": "#b91779",
+      "definition": "有这样的结果并非只有一个解释。因此，在这样的情况下从结果反推原因是不准确的。",
+      "example": "“如果你读了好学校，你就会找到好工作。如果你没读好学校，你就绝对找不到好工作。”",
+      "image": "stickers/45_2570969055473172643.png",
+      "deepDive": {
+        "manifestation": "如果你是小偷（P），你就会心虚（Q）；你不是小偷（非P），所以你绝不会心虚（非Q）（完全可能因性格内向而心虚紧张）。",
+        "counterStrategy": "形式逻辑推理规则：否定充分条件的前提，无法必然推出结论被否定。通往Q的结果往往有多种不同的途径。",
+        "relatedIds": [
+          "42",
+          "35"
+        ]
+      },
+      "svg": "svg-icons/45.svg"
+    },
+    {
+      "id": "46",
+      "name": "忽视主因",
+      "englishName": "Ignoring a Common Cause",
+      "category": "因果错乱",
+      "categoryId": "causality",
+      "color": "#aa1c75",
+      "definition": "声称是某事件导致了后果，而实际上另一件（意料之外）的事才是真正原因。",
+      "example": "“60年代我们开始了性解放运动，而现在人们正死于艾滋。”",
+      "image": "stickers/46_2570969055473172644.png",
+      "deepDive": {
+        "manifestation": "声称发烧导致了患者脉搏加快，忽视了背后是致命的流感病毒感染同时独立引发了高烧与心动过速。",
+        "counterStrategy": "深入挖掘深层母因。两个同步变化的表象事件，很可能只是受同一个幕后根源驱动的平行伴生结果。",
+        "relatedIds": [
+          "44",
+          "47"
+        ]
+      },
+      "svg": "svg-icons/46.svg"
+    },
+    {
+      "id": "47",
+      "name": "前后即因果",
+      "englishName": "Post Hoc Ergo Propter Hoc",
+      "category": "因果错乱",
+      "categoryId": "causality",
+      "color": "#9b1e6f",
+      "definition": "因为一件事是在另一件事之后发生的，因此也是由那件事引起的。",
+      "example": "“新总统上台之后，失业人数创了历史新高。所以是总统阻碍了经济发展。”",
+      "image": "stickers/47_2570969055473172645.png",
+      "deepDive": {
+        "manifestation": "吃了感冒药第7天感冒康复，认定是药片治好了感冒（实际上普通病毒性感冒即使不吃药自愈周期也是7天）。",
+        "counterStrategy": "时间上的先后继发绝对不等于事实上的因果传导。必须排除经济周期的滞后效应或自然衰减规律。",
+        "relatedIds": [
+          "44",
+          "46"
+        ]
+      },
+      "svg": "svg-icons/47.svg"
+    },
+    {
+      "id": "48",
+      "name": "积非成是",
+      "englishName": "Two Wrongs Make a Right",
+      "category": "因果错乱",
+      "categoryId": "causality",
+      "color": "#8e226b",
+      "definition": "认为一桩错事能被另一桩错事所抵消。",
+      "example": "“不错——这监狱环境恶劣又没人性，不过关的本来就是罪犯嘛！”",
+      "image": "stickers/48_2570969055473172646.png",
+      "deepDive": {
+        "manifestation": "“刚才有人闯红灯你怎么不管，凭什么单挑我罚？”、“对手公司也搞恶意抹黑，所以我们雇水军造谣是合理的”。",
+        "counterStrategy": "两个错误拼凑不出一个正义。他人的失范或违法绝不能成为自身践踏规则与法治底线的免罪符。",
+        "relatedIds": [
+          "51",
+          "49"
+        ]
+      },
+      "svg": "svg-icons/48.svg"
+    },
+    {
+      "id": "49",
+      "name": "人身攻击",
+      "englishName": "Ad Hominem",
+      "category": "攻击谬误",
+      "categoryId": "attack",
+      "color": "#168ecc",
+      "definition": "绕开论证，针对辩论者本身发起不相干的攻击。",
+      "example": "“你以为自己是生物学专家吗，也好意思来教我们转基因食品的事？”",
+      "image": "stickers/49_2570969055473172647.png",
+      "deepDive": {
+        "manifestation": "无法在数据或逻辑上驳倒对方时，恼羞成怒转而攻击发言者的学历、相貌、过往私德、口音或穿戴品味。",
+        "counterStrategy": "“即便我不是专家，我引用的这组实验数据来自《自然》同行评议期刊。请放下人身评价，正面辩驳数据本身。”",
+        "relatedIds": [
+          "51",
+          "52"
+        ]
+      },
+      "svg": "svg-icons/49.svg"
+    },
+    {
+      "id": "50",
+      "name": "举证责任",
+      "englishName": "Burden of Proof",
+      "category": "攻击谬误",
+      "categoryId": "attack",
+      "color": "#1586c2",
+      "definition": "我不需要证明我说得正确——你必须证明它是错的。",
+      "example": "“我坚持认为长期的太阳活动周期是全球变暖的原因。证明我错了啊！”",
+      "image": "stickers/50_2570969055473172648.png",
+      "deepDive": {
+        "manifestation": "“罗素的火星茶壶”。凭空断言某个离奇假设，强迫质疑者拿出证据证明其不存在，若质疑者拿不出就宣称自己正确。",
+        "counterStrategy": "“谁主张，谁举证。非同寻常的主张必须提供非同寻常的证据。举证的责任永远落在做出肯定断言的一方身上。”",
+        "relatedIds": [
+          "04",
+          "41"
+        ]
+      },
+      "svg": "svg-icons/50.svg"
+    },
+    {
+      "id": "51",
+      "name": "身份主观",
+      "englishName": "Circumstantial Ad Hominem",
+      "category": "攻击谬误",
+      "categoryId": "attack",
+      "color": "#1580b9",
+      "definition": "认为一个论断不可信，因为支持者与之有利害关系。",
+      "example": "“研究手机对健康影响的这个调研有手机公司参与。所以，研究结果不可信。”",
+      "image": "stickers/51_2570969055473172649.png",
+      "deepDive": {
+        "manifestation": "“你替新能源车发声，肯定是拿了车企公关费，你给出的电池损耗报告全都是假的”。",
+        "counterStrategy": "利益相关性需要促使我们提高核验标准，但不可直接取代科学反驳。应当核查该研究是否经受独立机构的盲测与复现。",
+        "relatedIds": [
+          "49",
+          "17"
+        ]
+      },
+      "svg": "svg-icons/51.svg"
+    },
+    {
+      "id": "52",
+      "name": "基因谬误",
+      "englishName": "Genetic Fallacy",
+      "category": "攻击谬误",
+      "categoryId": "attack",
+      "color": "#0d78ad",
+      "definition": "攻击一个论点的来源历史或出处，而非它的实质内容。",
+      "example": "“这本书是1967年出版的，里面说的东西哪还有价值。”",
+      "image": "stickers/52_2570969055473172650.png",
+      "deepDive": {
+        "manifestation": "“大众甲壳虫是二战法西斯政权下令研发的，因此买甲壳虫的人都有不良倾向”。用出身血统论取代当代客观评估。",
+        "counterStrategy": "清晰解耦“概念的历史发端环境”与“概念当下的有效性”。现代医学许多成果也源于粗糙萌芽，真伪只取决于当下的实证。",
+        "relatedIds": [
+          "49",
+          "53"
+        ]
+      },
+      "svg": "svg-icons/52.svg"
+    },
+    {
+      "id": "53",
+      "name": "罪恶关联",
+      "englishName": "Guilt by Association",
+      "category": "攻击谬误",
+      "categoryId": "attack",
+      "color": "#0972a5",
+      "definition": "通过将一个论点与形象不良的人群联系起来，从而破坏其可信度。",
+      "example": "“哦，你想要放松反恐条例，就像那帮恐怖分子想要的一样。所以你是支持恐怖主义的咯？”",
+      "image": "stickers/53_2570969055473172651.png",
+      "deepDive": {
+        "manifestation": "“希特勒也是个不抽烟的素食主义者，所以支持素食就是同情纳粹魔头”。借大众对特定历史恶魔的厌恶搞猎巫株连。",
+        "counterStrategy": "恶人也需要喝水呼吸。观点的真伪取决于其公理前提与事实推导，绝不取决于曾经有哪些恶棍碰巧持有类似主张。",
+        "relatedIds": [
+          "49",
+          "52"
+        ]
+      },
+      "svg": "svg-icons/53.svg"
+    },
+    {
+      "id": "54",
+      "name": "稻草人谬误",
+      "englishName": "Straw Man",
+      "category": "攻击谬误",
+      "categoryId": "attack",
+      "color": "#096c9c",
+      "definition": "歪曲或简化你对手的论点，以攻击之。",
+      "example": "甲：“国家应该投入更多的预算来发展教育行业。” 乙：“你这么不爱国，居然想减少国防开支，让外国列强有机可乘！”",
+      "image": "stickers/54_2570969055473172652.png",
+      "deepDive": {
+        "manifestation": "“我说要强化食品安全法治审查，你就说我想让全部中小饭馆破产断炊”。刻意树立一个极端脆弱的假靶子狂轰滥炸。",
+        "counterStrategy": "当场揭穿稻草人花招并正本清源：“我主张的是优化结构支持教育，从未提出削减国防预算。请勿虚构稻草人，正面回答教育议题。”",
+        "relatedIds": [
+          "16",
+          "38"
+        ]
+      },
+      "svg": "svg-icons/54.svg"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "fallacy-detector",
+  "version": "1.0.0",
+  "description": "54 common logical fallacies and sophistry arguments taxonomy, agent skill, and detection toolkit",
+  "main": "scripts/detect.js",
+  "bin": {
+    "fallacy-detect": "scripts/detect.js"
+  },
+  "scripts": {
+    "start": "node scripts/detect.js --interactive",
+    "detect": "node scripts/detect.js",
+    "test": "node scripts/evaluate.js",
+    "export": "node scripts/export_cheatsheet.js"
+  },
+  "keywords": [
+    "logical-fallacy",
+    "critical-thinking",
+    "sophistry",
+    "agent-skill",
+    "llm",
+    "debate",
+    "antigravity-skill",
+    "claude-skill",
+    "argument-mining"
+  ],
+  "author": "adbyte (yaodwwy)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaodwwy/fallacy-detector.git"
+  }
+}

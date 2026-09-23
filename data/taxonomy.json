@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "totalCategories": 6,
+  "totalFallacies": 54,
+  "categories": [
+    {
+      "id": "mind",
+      "name": "诉诸思想",
+      "englishName": "Appeal to the Mind",
+      "color": "#754d29",
+      "count": 10,
+      "description": "利用思维惯性、虚假权威、大众盲从或无知来确立观点，而非凭借严谨证据。",
+      "fallacyIds": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "id": "emotion",
+      "name": "诉诸情感",
+      "englishName": "Appeal to Emotion",
+      "color": "#eb2128",
+      "count": 8,
+      "description": "操控受众的恐惧、怜悯、虚荣、仇恨或偏见等情绪反应，绕过理性的客观审视。",
+      "fallacyIds": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ]
+    },
+    {
+      "id": "deduction",
+      "name": "错误推论",
+      "englishName": "Faulty Deduction",
+      "color": "#918bc1",
+      "count": 13,
+      "description": "演绎与归纳逻辑结构存在结构性硬伤，从前提到结论推导脱节或偷换概念。",
+      "fallacyIds": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31"
+      ]
+    },
+    {
+      "id": "content",
+      "name": "操纵内容",
+      "englishName": "Manipulating Content",
+      "color": "#5fab8a",
+      "count": 10,
+      "description": "曲解、隐匿、转移或预设论据本身，通过信息不对称与诡辩掩盖论点的薄弱。",
+      "fallacyIds": [
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ]
+    },
+    {
+      "id": "causality",
+      "name": "因果错乱",
+      "englishName": "Garbled Cause & Effect",
+      "color": "#e9018b",
+      "count": 7,
+      "description": "错误地将先后时间次序、统计相关性等同于实质因果链条，倒因为果。",
+      "fallacyIds": [
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48"
+      ]
+    },
+    {
+      "id": "attack",
+      "name": "攻击谬误",
+      "englishName": "On the Attack",
+      "color": "#168ecc",
+      "count": 6,
+      "description": "回避命题与论证本身，针对发言者的个人品格、动机、身份或背景发起人身攻讦。",
+      "fallacyIds": [
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54"
+      ]
+    }
+  ]
+}

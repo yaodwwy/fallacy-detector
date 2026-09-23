@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TC-01",
+    "text": "既然大家都闯红灯过马路，说明这么走完全没问题，交警抓我纯属找茬。",
+    "expectedFallacyIds": ["03"],
+    "expectedFallacyNames": ["诉诸常规"],
+    "category": "诉诸思想",
+    "difficulty": "EASY",
+    "coreAnalysis": "以常见性等同于合理合法性。"
+  },
+  {
+    "id": "TC-02",
+    "text": "你如果不买我们这款理财险，万一明天出门遇到意外，你的孩子和父母就要流落街头、连饭都吃不上了！",
+    "expectedFallacyIds": ["12", "39"],
+    "expectedFallacyNames": ["诉诸恐惧", "滑坡谬误"],
+    "category": "诉诸情感",
+    "difficulty": "EASY",
+    "coreAnalysis": "利用灾难性极端后果引发恐慌迫使买单。"
+  },
+  {
+    "id": "TC-03",
+    "text": "如果下雨，地面就会湿。现在地面是湿的，所以刚才肯定下雨了。",
+    "expectedFallacyIds": ["19"],
+    "expectedFallacyNames": ["肯定后件"],
+    "category": "错误推论",
+    "difficulty": "MEDIUM",
+    "coreAnalysis": "形式逻辑典型后件肯定错误，洒水车洒水同样会导致地面潮湿。"
+  },
+  {
+    "id": "TC-04",
+    "text": "他居然建议减少军费开支？他这分明就是想让国家门户大开，任由外国侵略者烧杀抢掠！",
+    "expectedFallacyIds": ["33"],
+    "expectedFallacyNames": ["稻草人"],
+    "category": "操纵内容",
+    "difficulty": "EASY",
+    "coreAnalysis": "将合理的预算优化夸大为叛国投降的极端假靶子。"
+  },
+  {
+    "id": "TC-05",
+    "text": "我自从换了这串水晶手链后，上周的股票就大涨了 20%，这手链肯定能招财！",
+    "expectedFallacyIds": ["42"],
+    "expectedFallacyNames": ["事后归因"],
+    "category": "因果错乱",
+    "difficulty": "EASY",
+    "coreAnalysis": "把单纯的时间先后顺序当成动力学因果关系。"
+  },
+  {
+    "id": "TC-06",
+    "text": "你劝别人少抽烟对身体好，你自己年轻时不也是个大烟鬼？你有什么资格教育别人！",
+    "expectedFallacyIds": ["51"],
+    "expectedFallacyNames": ["你也一样"],
+    "category": "攻击谬误",
+    "difficulty": "EASY",
+    "coreAnalysis": "以说话者过去的过错回避吸烟有害健康的客观事实。"
+  },
+  {
+    "id": "TC-07",
+    "text": "这个软件肯定是市面上性能最强、漏洞最少的，因为它是上周才发布的最新版本！",
+    "expectedFallacyIds": ["07"],
+    "expectedFallacyNames": ["求新逻辑"],
+    "category": "诉诸思想",
+    "difficulty": "MEDIUM",
+    "coreAnalysis": "将时间的新颖等同于产品稳定性和性能的优越。"
+  },
+  {
+    "id": "TC-08",
+    "text": "要么我们立刻向这个项目追加 1000 万，要么我们就彻底破产倒闭，没有第二种可能！",
+    "expectedFallacyIds": ["25"],
+    "expectedFallacyNames": ["虚假两难"],
+    "category": "错误推论",
+    "difficulty": "MEDIUM",
+    "coreAnalysis": "非黑即白，强行抹杀中间调优、重组或业务聚焦的折中方案。"
+  },
+  {
+    "id": "TC-09",
+    "text": "真正的苏格兰人绝不会在燕麦粥里加糖！你说麦克加了？那麦克根本就不是真正的苏格兰人！",
+    "expectedFallacyIds": ["40"],
+    "expectedFallacyNames": ["绝对无误"],
+    "category": "操纵内容",
+    "difficulty": "MEDIUM",
+    "coreAnalysis": "通过临时篡改群体定义以维护原论断的绝对正确。"
+  },
+  {
+    "id": "TC-10",
+    "text": "统计数据显示，冰淇淋销量越高的月份，溺水身亡的人数也越多。因此吃冰淇淋会导致溺水！",
+    "expectedFallacyIds": ["46", "21"],
+    "expectedFallacyNames": ["错把相关当因果", "聚合谬误"],
+    "category": "因果错乱",
+    "difficulty": "MEDIUM",
+    "coreAnalysis": "忽视了第三共同变量（炎热夏季）。"
+  },
+  {
+    "id": "TC-11",
+    "text": "我们已经在这个项目上亏损了 5000 万，现在要是撤资，之前的 5000 万就全打水漂了，所以必须咬牙追加投资！",
+    "expectedFallacyIds": ["47"],
+    "expectedFallacyNames": ["沉没成本"],
+    "category": "因果错乱",
+    "difficulty": "MEDIUM",
+    "coreAnalysis": "以无法追回的历史投入作为未来决策依据。"
+  },
+  {
+    "id": "TC-12",
+    "text": "他赞同这个环保提案，是因为他手里持有新能源股票；如果他没有股票，他绝不会赞同！因此这个提案完全是错误的！",
+    "expectedFallacyIds": ["50", "41"],
+    "expectedFallacyNames": ["动机论攻击", "诉诸动机"],
+    "category": "攻击谬误",
+    "difficulty": "HARD",
+    "coreAnalysis": "以发言者的利益动机攻击提案本身的内容正确性。"
+  }
+]
