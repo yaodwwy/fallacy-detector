@@ -1,9 +1,10 @@
 ---
 name: fallacy-detector
 description: 识别、解构并反驳文本或论证中的 54 种常见逻辑谬误与诡辩话术，支持多维分类归因、论证重构、置信度评估与精准反制破局。
-version: 1.0.0
-author: adbyte (yaodwwy)
 license: MIT
+metadata:
+  version: "1.0.0"
+  author: adbyte (yaodwwy)
 ---
 
 # 逻辑谬误与诡辩甄别 Agent Skill (Fallacy Detector Skill)
@@ -169,4 +170,6 @@ license: MIT
 - **实战案例**：`examples/01_social_media_debate.md`、`examples/02_commercial_advertisement.md`、`examples/03_corporate_management.md`
 - **基准测试**：`examples/test_cases.json`（12 个精选测试用例）
 - **CLI 命令行工具**：`scripts/detect.js`（支持关键词检索与快速启发式诊断）
-- **在线图解站**：[https://logical-types.adbyte.cn](https://logical-types.adbyte.cn)
+- **提示词套件**：`prompts/system_prompt.md`、`prompts/fallacy_detection.md`、`prompts/debate_rebuttal.md`、`prompts/formal_verification.md`、`prompts/user_input_template.md`，按分析任务选择使用。
+- **图解资源**：`assets/svg-icons/`（54 个谬误图解 SVG）。
+- **辅助脚本**：`scripts/evaluate.js` 展示评测用例；`scripts/export_cheatsheet.js` 从知识库更新 CSV、分类数据与速查手册。脚本仅使用 Node.js 内置模块，按需运行，无需安装项目依赖；技能分析本身不依赖脚本执行。

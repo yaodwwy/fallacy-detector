@@ -63,8 +63,6 @@ console.log(`Generated -> ${CSV_FILE}`);
 let md = `# 54 种常见逻辑谬误与诡辩论证速查手册 (Cheatsheet)
 
 > 本速查表基于经典论证哲学与 **Information is Beautiful** 知识图谱架构整理，涵盖 6 大论证认知维度、54 种常见逻辑谬误与诡辩话术，配备核心判定要点与破局反制策略。
->
-> 🌐 交互式图解站点：[https://logical-types.adbyte.cn](https://logical-types.adbyte.cn)
 
 ---
 
